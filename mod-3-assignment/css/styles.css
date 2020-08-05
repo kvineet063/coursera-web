@@ -15,11 +15,10 @@
     font-weight: bold;
     font-size: 3em;
     color: black;
-    line-height: 50px;
+    
 }
 .navbar-nav{
   font-size: 25px;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +28,6 @@
     border: 0;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    height: 76px
 }
 
 .navbar-nav{
@@ -40,9 +38,9 @@
  font-size: 1.2em; 
  font-weight: normal;
  color: black;
- padding-left: 20px;
+ /*padding-left: 20px;
  padding-right: 20px;
- padding-bottom: 20px;
+ padding-bottom: 20px; */
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px black;
@@ -51,6 +49,7 @@
 }
 button.navbar-toggle{
   margin-right: 30px;  
+  
 }
 #nav-list li{
     font-weight: bold;
