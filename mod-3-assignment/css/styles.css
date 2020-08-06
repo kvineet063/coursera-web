@@ -16,6 +16,7 @@
     font-size: 3em;
     color: black;
     
+    
 }
 .navbar-nav{
   font-size: 25px;
@@ -32,6 +33,15 @@
 
 .navbar-nav{
     padding-top: 0;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 .row p{
  
@@ -68,9 +78,21 @@ hr{
     background-color: grey;
     color: black;
 }
-.row{
-    margin: 40px;
+.box{
+    
     background-color: MediumSeaGreen;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 20px;
+    padding-top: 0;
+
+}
+.row{
+    margin: 20px;
 }
 h1{
     font-family: serif;
@@ -83,7 +105,4 @@ h2{
     font-family: 'Rowdies', cursive;
     font-size:3em;
     color:black;
-}
-@media (min-width: 768px ) {
-    margin-left: 20px;
 }
